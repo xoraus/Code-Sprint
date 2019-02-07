@@ -28,8 +28,6 @@ void rotate(unsigned int *pS, unsigned int *pD, unsigned int row, unsigned col) 
     }
 }
 
-
-
 int main() {
     unsigned int image[][4] = {{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}};
     unsigned int *pSource;
