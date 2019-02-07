@@ -1,2 +1,5 @@
 problem no. 28
 problem no. 30.
+33. difference between Array and linked list
+34. Selection sort - O(n), while cycle sort makes less writes as compared
+    to the selection sort.
