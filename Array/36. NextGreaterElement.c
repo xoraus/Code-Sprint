@@ -72,6 +72,7 @@ void printNGE(int arr[], int n) {
                 break;
             element = pop(&s);
         }
+        
         }
     }
 }
