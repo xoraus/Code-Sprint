@@ -3,7 +3,7 @@
 public class Solution {
     public int[] twoSum(int[] nums, int target) {
         int result[] = new int[2];
-        if(nums == null || nums.length == 0) {
+        if (nums == null || nums.length == 0) {
             return result;
         }
 
