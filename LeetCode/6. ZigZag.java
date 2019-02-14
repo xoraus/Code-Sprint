@@ -16,6 +16,7 @@ public String convert(String s, int nRows) {
     return sb[0].toString();
 }
 
+// visualization
 /*n=numRows
 Δ=2n-2    1                           2n-1                         4n-3
 Δ=        2                     2n-2  2n                    4n-4   4n-2
