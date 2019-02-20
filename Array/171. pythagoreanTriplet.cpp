@@ -22,3 +22,26 @@ int main(){
     isTriplet(ar, arr_size);
     return 0;
 }
+
+// an optimized function o(n2)
+
+bool isTriplet(int arr[], int n) {
+    for (int i = 0; i < n;i++)
+        arr[i] = arr[i] * arr[i];
+
+    // sort the array elements
+    sort(arr, arr + n);
+
+    // now fix the one element one by
+    for (int i = n - 1; i >= 2; i--) {
+        int l = 0;
+        int r = i - 1;
+        while(l<r){
+            if(arr[l] + arr[r] == arr[i])
+                return true;
+                // else move l or r
+            (arr[l] + arr[r] == arr[i]) ? l++ : r--;
+        }
+    }
+    return false;
+}
