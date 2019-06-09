@@ -1,0 +1,34 @@
+\cvsection{Education}
+\begin{cventries}
+  \cventry
+    {B.E. in Computer Science and Engineering}
+    {\href{http://www.psgtech.edu/} PSG College of Technology (PSG Tech)}
+    {Coimbatore, Tamil Nadu, India}
+    {\textbf{Jun. 2016 - PRESENT}}
+    {
+      \begin{cvitems}
+        \item {CGPA of \textbf{7.11/10} (till May 2020, 6th Semester)}
+      \end{cvitems}
+    }
+ \cventry
+    {Secondary School}
+    {SP Smart School, Jammu, J&K (JKBOSE)}
+    {Jammu, J&K, India}
+    {\textbf{Jun. 2014 - May. 2016}}
+    {
+      \begin{cvitems}
+        \item {Secured \textbf{88.66\%} in HSLC Examination}
+      \end{cvitems}
+    }
+\cventry
+    {High School}
+    {Little AngelS School, Kathua, J&K (JKBOSE)}
+    {Kathua, J&K, India}
+    {\textbf{Apr. 2012 - May. 2014}}
+    {
+      \begin{cvitems}
+        \item {Secured \textbf{91\%}}
+        \item {9.80 Grade Point }
+      \end{cvitems}
+    }
+\end{cventries}
